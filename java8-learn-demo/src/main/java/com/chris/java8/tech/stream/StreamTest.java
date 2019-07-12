@@ -1,13 +1,13 @@
 package com.chris.java8.tech.stream;
 
+import com.chris.java8.utils.GsonUtils;
 import com.google.gson.Gson;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
-import java.util.concurrent.ConcurrentMap;
-import java.util.function.Supplier;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -17,7 +17,46 @@ import java.util.stream.Stream;
  */
 public class StreamTest {
     public static void main(String[] args) {
-        test3();
+        test9();
+    }
+
+    /**
+     * 去重
+     */
+    private static void test9() {
+        List<UserModel> userModelList = new ArrayList<>();
+        userModelList.add(new UserModel(1, "kaly", 12));
+        userModelList.add(new UserModel(1, "kaly chen", 42));
+        UserModel chris = new UserModel(2, "chris", 12);
+        userModelList.add(chris);
+        userModelList.add(chris);
+        userModelList.add(new UserModel(2, "chris", 12));
+        userModelList.add(new UserModel(3, "chris chen", 12));
+        userModelList.add(new UserModel(4, "chenfabao", 12));
+        userModelList.add(new UserModel(5, "fabio", 12));
+        userModelList.add(new UserModel(6, "will chan", 12));
+
+        //直接去重
+        System.out.println("直接去重");
+        List<UserModel> userModelList1 = userModelList.stream().distinct().collect(Collectors.toList());
+        userModelList1.stream().forEach(userModel -> System.out.println(GsonUtils.gson.toJson(userModel)));
+
+        System.out.println("据其中一个字段id去重");
+        //根据其中一个字段id去重
+        List<UserModel> userModelList2 = userModelList.stream().filter(distinctByKey(userModel -> userModel.getId())).collect(Collectors.toList());
+        userModelList2.stream().forEach(userModel -> System.out.println(GsonUtils.gson.toJson(userModel)));
+
+        System.out.println("据其中一个字段id去重");
+        //据其中一个字段name去重
+        ArrayList<UserModel> userModels = userModelList.stream().collect(Collectors.collectingAndThen(
+                Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(UserModel::getName))), ArrayList::new));
+        userModels.stream().forEach(userModel -> System.out.println(GsonUtils.gson.toJson(userModel)));
+    }
+
+    public static <T> Predicate<T> distinctByKey(Function<? super T, Object> keyExtractor) {
+        Map<Object, Boolean> seen = new ConcurrentHashMap<>();
+        System.out.println("这个函数将应用到每一个item");
+        return t -> seen.putIfAbsent(keyExtractor.apply(t), Boolean.TRUE) == null;
     }
 
     private static void test8() {
@@ -62,7 +101,7 @@ public class StreamTest {
     private static void test3() {
         String[] names = {"kaly", "chris", "fabio", "will"};
         //Arrays.stream(names).forEach(name -> System.out.println(name));
-        Stream.of(names).forEach(name-> System.out.println(name));
+        Stream.of(names).forEach(name -> System.out.println(name));
     }
 
     /**

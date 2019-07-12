@@ -15,6 +15,12 @@ public class UserModel {
     public UserModel() {
     }
 
+    public UserModel(int id, String name, int age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
+
     public UserModel(int id, String name, int age, int level) {
         this.id = id;
         this.name = name;
@@ -52,5 +58,20 @@ public class UserModel {
 
     public void setLevel(int level) {
         this.level = level;
+    }
+
+    /**
+     * 直接去重需要重写这两个方法
+     * @param obj
+     * @return
+     */
+    @Override
+    public boolean equals(Object obj) {
+        return hashCode()==obj.hashCode();
+    }
+
+    @Override
+    public int hashCode() {
+        return id;
     }
 }
