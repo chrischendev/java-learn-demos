@@ -1,6 +1,7 @@
 package com.chris.mahjong;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -15,10 +16,10 @@ public class OwnCard {
     private List<Integer> hand;//手里还有的牌
 
     public OwnCard() {
-        chi=new ArrayList<>();
-        pen=new ArrayList<>();
-        gang=new ArrayList<>();
-        hand =new ArrayList<>();
+        chi = new ArrayList<>();
+        pen = new ArrayList<>();
+        gang = new ArrayList<>();
+        hand = new ArrayList<>();
     }
 
     public OwnCard(List<List<Integer>> chi, List<List<Integer>> pen, List<List<Integer>> gang, List<Integer> hand) {
@@ -59,4 +60,18 @@ public class OwnCard {
     public void setHand(List<Integer> hand) {
         this.hand = hand;
     }
+
+    public void addChiList(List<Integer>... chi) {
+        this.chi.addAll(Arrays.asList(chi));
+    }
+
+    public void addPenList(List<Integer>... pen) {
+        this.pen.addAll(Arrays.asList(pen));
+    }
+
+    public void addGangList(List<Integer>... gang) {
+        this.gang.addAll(Arrays.asList(gang));
+    }
+
+
 }
