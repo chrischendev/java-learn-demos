@@ -108,10 +108,10 @@ public class MahjongUtils {
 
         }
         //2. 剔除刻子之后检索搭子
-        List<Integer> list1=new ArrayList<>()
-/*
-暂停，这里思路有问题，先检出刻子是不对的
- */
+        List<Integer> list1 = new ArrayList<>();
+        /*
+        暂停，这里思路有问题，先检出刻子是不对的
+         */
 
         return groupCount;
     }
