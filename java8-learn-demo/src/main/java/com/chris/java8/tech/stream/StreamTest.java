@@ -17,7 +17,71 @@ import java.util.stream.Stream;
  */
 public class StreamTest {
     public static void main(String[] args) {
-        test10();
+        test11();
+    }
+
+    /**
+     * 分组统计
+     */
+    private static void test11() {
+        Stu stu1 = new Stu("学生1", 98);
+        Stu stu2 = new Stu("学生1", 94);
+        Stu stu3 = new Stu("学生3", 95);
+        Stu stu4 = new Stu("学生3", 95);
+        Stu stu5 = new Stu("学生5", 98);
+
+        List<Stu> stuList = new ArrayList<>();
+        stuList.add(stu1);
+        stuList.add(stu2);
+        stuList.add(stu3);
+        stuList.add(stu4);
+        stuList.add(stu5);
+
+        //分组求和 按照姓名分别求和
+        Map<String, Integer> map = stuList.stream()
+                .collect(Collectors.groupingBy(Stu::getName, Collectors.summingInt(Stu::getScore)));
+
+        map.forEach((key, value) -> System.out.println(key + ":" + value));
+
+        //分组统计 按照成绩统计
+        Map<Integer, Long> map1 = stuList.stream()
+                .collect(Collectors.groupingBy(Stu::getScore, Collectors.counting()));
+
+        map1.forEach((key, value) -> System.out.println(key + ":" + value));
+
+        //分组 按照姓名分组
+        Map<String, List<Stu>> map2 = stuList.stream()
+                .collect(Collectors.groupingBy(Stu::getName));
+
+        map2.forEach((key, value) -> System.out.println(key + ":" + new Gson().toJson(value)));
+
+        //累加 把所有成绩加起来
+        Integer sum = stuList.stream()
+                .map(Stu::getScore)
+                .reduce(Integer::sum)
+                .get();
+        System.out.println(sum);
+
+        //累加 把所有成绩加起来 reduce实现2
+        Integer sum2 = stuList.stream()
+                .map(Stu::getScore)
+                .reduce(0, (iSum, val) -> iSum + val);
+        System.out.println(sum2);
+
+        //求平均 求平均成绩
+        double avg = stuList.stream()
+                .mapToInt(Stu::getScore)
+                .average()
+                .getAsDouble();
+        System.out.println(avg);
+
+        //拼接姓名
+        String nameStr = stuList.stream()
+                .map(Stu::getName)
+                .distinct()
+                .collect(Collectors.joining(",", "[", "]"));
+        System.out.println(nameStr);
+
     }
 
     /**
