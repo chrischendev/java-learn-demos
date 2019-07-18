@@ -17,7 +17,18 @@ import java.util.stream.Stream;
  */
 public class StreamTest {
     public static void main(String[] args) {
-        test9();
+        test10();
+    }
+
+    /**
+     * 合并流
+     */
+    private static void test10() {
+        String[] strs = {"老虎 杠子 鸡", "剪子 包袱 锤"};
+        Arrays.asList(strs).stream()
+                .flatMap(str -> Stream.of(str.split(" ")))
+                .forEach(s -> System.out.println(s));
+
     }
 
     /**
