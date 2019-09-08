@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="119120ae-4365-46c5-8bec-7676ff690aa9" name="Default Changelist" comment="" />
+    <list default="true" id="119120ae-4365-46c5-8bec-7676ff690aa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chris/java8/ref/RefTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +32,20 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/io/IoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-105">
+              <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/stack/StackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/queue/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/io/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/ref/RefTest.java" />
       </list>
     </option>
   </component>
@@ -100,8 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,18 +150,38 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java8-learn-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8-learn-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java8-learn-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8-learn-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="ref" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567840788319" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567960437432" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../github/chrischendev/reference-samples/Java/ChrisNettyDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -172,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IoTest">
+  <component name="RunManager" selected="Application.RefTest">
     <configuration name="IoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chris.java8.io.IoTest" />
       <module name="java8-learn-demo" />
@@ -212,6 +247,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RefTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chris.java8.ref.RefTest" />
+      <module name="java8-learn-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chris.java8.ref.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chris.java8.stack.StackTest" />
       <module name="java8-learn-demo" />
@@ -225,33 +273,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chris.java8.tech.stream.StreamTest" />
-      <module name="java8-learn-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chris.java8.tech.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.StreamTest" />
       <item itemvalue="Application.LombokTest" />
       <item itemvalue="Application.QueueTest" />
       <item itemvalue="Application.StackTest" />
       <item itemvalue="Application.IoTest" />
+      <item itemvalue="Application.RefTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RefTest" />
         <item itemvalue="Application.IoTest" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.LombokTest" />
-        <item itemvalue="Application.StreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,16 +313,17 @@
       <workItem from="1567325343845" duration="1527000" />
       <workItem from="1567393397221" duration="202000" />
       <workItem from="1567828669421" duration="5010000" />
+      <workItem from="1567960071233" duration="563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44093000" />
+    <option name="totallyTimeSpent" value="44656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20493563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -333,7 +369,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/function/Predicate.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/time/DataTimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
@@ -632,10 +667,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/ref/RefTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/io/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
-          <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+        <state relative-caret-position="-105">
+          <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
