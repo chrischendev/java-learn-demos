@@ -1,4 +1,4 @@
-package com.chris.java8.io;
+package com.chris.java8.tech.io;
 
 import java.io.*;
 import java.nio.charset.Charset;

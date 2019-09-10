@@ -1,4 +1,4 @@
-package com.chris.java8.ref;
+package com.chris.java8.tech.ref;
 
 import java.lang.reflect.Type;
 import java.util.List;

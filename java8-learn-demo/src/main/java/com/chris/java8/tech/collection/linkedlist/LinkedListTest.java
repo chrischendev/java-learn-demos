@@ -1,4 +1,4 @@
-package com.chris.java8.collection.linkedlist;
+package com.chris.java8.tech.collection.linkedlist;
 
 import com.google.gson.Gson;
 

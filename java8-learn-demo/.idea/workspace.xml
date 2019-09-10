@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="119120ae-4365-46c5-8bec-7676ff690aa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chris/java8/ref/RefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chris/java8/tech/others/OthersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/java8/collection/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/java8/tech/collection/linkedlist/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/java8/io/IoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/java8/tech/io/IoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/java8/queue/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/java8/tech/queue/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/java8/ref/RefTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/java8/tech/ref/RefTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chris/java8/stack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chris/java8/tech/stack/StackTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,14 +37,39 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/io/IoTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/io/IoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
+            <state relative-caret-position="21">
               <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/ref/RefTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/others/OthersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#202#203#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,6 +122,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/queue/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/io/IoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/ref/RefTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/tech/io/IoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/java8/tech/others/OthersTest.java" />
       </list>
     </option>
   </component>
@@ -117,6 +149,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +191,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="tech" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java8-learn-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -166,21 +200,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="tech" type="462c0819:PsiDirectoryNode" />
+              <item name="others" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java8-learn-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8-learn-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+              <item name="tech" type="462c0819:PsiDirectoryNode" />
               <item name="ref" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567960437432" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568146443265" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../github/chrischendev/reference-samples/Java/ChrisNettyDemo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -207,13 +250,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RefTest">
+  <component name="RunManager" selected="Application.OthersTest">
     <configuration name="IoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chris.java8.io.IoTest" />
+      <option name="MAIN_CLASS_NAME" value="com.chris.java8.tech.io.IoTest" />
       <module name="java8-learn-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chris.java8.io.*" />
+          <option name="PATTERN" value="com.chris.java8.tech.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +264,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LombokTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chris.java8.framework.lombok.LombokTest" />
+    <configuration name="OthersTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chris.java8.tech.others.OthersTest" />
       <module name="java8-learn-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chris.java8.framework.lombok.*" />
+          <option name="PATTERN" value="com.chris.java8.tech.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +278,11 @@
       </method>
     </configuration>
     <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chris.java8.queue.QueueTest" />
+      <option name="MAIN_CLASS_NAME" value="com.chris.java8.tech.queue.QueueTest" />
       <module name="java8-learn-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chris.java8.queue.*" />
+          <option name="PATTERN" value="com.chris.java8.tech.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,11 +291,11 @@
       </method>
     </configuration>
     <configuration name="RefTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chris.java8.ref.RefTest" />
+      <option name="MAIN_CLASS_NAME" value="com.chris.java8.tech.ref.RefTest" />
       <module name="java8-learn-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chris.java8.ref.*" />
+          <option name="PATTERN" value="com.chris.java8.tech.ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,11 +304,11 @@
       </method>
     </configuration>
     <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chris.java8.stack.StackTest" />
+      <option name="MAIN_CLASS_NAME" value="com.chris.java8.tech.stack.StackTest" />
       <module name="java8-learn-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chris.java8.stack.*" />
+          <option name="PATTERN" value="com.chris.java8.tech.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,19 +317,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LombokTest" />
       <item itemvalue="Application.QueueTest" />
       <item itemvalue="Application.StackTest" />
       <item itemvalue="Application.IoTest" />
       <item itemvalue="Application.RefTest" />
+      <item itemvalue="Application.OthersTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OthersTest" />
         <item itemvalue="Application.RefTest" />
         <item itemvalue="Application.IoTest" />
         <item itemvalue="Application.QueueTest" />
         <item itemvalue="Application.StackTest" />
-        <item itemvalue="Application.LombokTest" />
       </list>
     </recent_temporary>
   </component>
@@ -314,14 +357,16 @@
       <workItem from="1567393397221" duration="202000" />
       <workItem from="1567828669421" duration="5010000" />
       <workItem from="1567960071233" duration="563000" />
+      <workItem from="1568146225630" duration="292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44656000" />
+    <option name="totallyTimeSpent" value="44948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -332,7 +377,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.29017857" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.29017857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,13 +414,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/time/DataTimeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/time/InstantTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -540,7 +578,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/collection/linkedlist/LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/collection/linkedlist/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
@@ -580,7 +618,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/queue/QueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/queue/QueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="471">
           <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
@@ -590,7 +628,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/stack/StackTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/stack/StackTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
@@ -667,24 +705,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/ref/RefTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/io/IoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="21">
+          <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/io/IoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/ref/RefTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+        <state relative-caret-position="294">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/java8/tech/others/OthersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
           </folding>
         </state>
       </provider>

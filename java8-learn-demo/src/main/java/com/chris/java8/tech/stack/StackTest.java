@@ -1,4 +1,4 @@
-package com.chris.java8.stack;
+package com.chris.java8.tech.stack;
 
 import com.google.gson.Gson;
 
