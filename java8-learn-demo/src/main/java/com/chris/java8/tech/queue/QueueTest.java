@@ -1,4 +1,4 @@
-package com.chris.java8.queue;
+package com.chris.java8.tech.queue;
 
 import com.google.gson.Gson;
 
