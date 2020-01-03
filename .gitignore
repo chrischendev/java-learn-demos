@@ -1,3 +1,10 @@
+# Common Ignore Files and Directories
+**/.idea/
+**/.mvn/
+**/tsrget/
+**/*.iml
+**/*.js
+
 # Compiled class file
 *.class
 
@@ -19,24 +26,3 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-mahjong-algorithm/.idea/workspace.xml
-mahjong-algorithm/.idea/workspace.xml
-mahjong-algorithm/.idea/workspace.xml
-java8-learn-demo/.idea/workspace.xml
-java8-learn-demo/.idea/workspace.xml
-java8-learn-demo/.idea/workspace.xml
-java8-learn-demo/.idea/java8-learn-demo.iml
-java8-learn-demo/.idea/workspace.xml
-java8-learn-demo/.idea/workspace.xml
-java8-learn-demo/.idea/workspace.xml
-java8-learn-demo/.idea/workspace.xml
-java8-learn-demo/.idea/workspace.xml
-springboot-learn-dfz/mvnw
-springboot-learn-dfz/mvnw.cmd
-springboot-learn-dfz/.mvn/wrapper/maven-wrapper.jar
-springboot-learn-dfz/.mvn/wrapper/maven-wrapper.properties
-springboot-learn-dfz/.mvn/wrapper/maven-wrapper.jar
-*.iml
-java8-learn-demo/.idea/workspace.xml
